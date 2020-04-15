@@ -4,6 +4,8 @@
 * 본 책은 Python 3.7 문법을 활용하였으나, 일부 예제에 대하여 C++11 소스코드를 추가적으로 제공합니다.
 * 소스코드와 관련한 궁금한 점이나 오류 관련 문의는 [Issues](https://github.com/ndb796/python-for-coding-test/issues) 탭을 이용하여 남겨주세요.
 
+<hr>
+
 ### Part 1 코딩 테스트 시작하기
 
 #### 1장 코딩 테스트 개요
