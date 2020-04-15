@@ -1,6 +1,6 @@
-# n, m, k를 공백을 기준으로 구분하여 입력 받기
+# N, M, K를 공백을 기준으로 구분하여 입력 받기
 n, m, k = map(int, input().split())
-# n개의 수를 공백을 기준으로 구분하여 입력 받기
+# N개의 수를 공백을 기준으로 구분하여 입력 받기
 data = list(map(int, input().split()))
 
 data.sort() # 입력 받은 수들 정렬하기
