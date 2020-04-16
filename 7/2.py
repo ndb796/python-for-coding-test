@@ -1,4 +1,4 @@
-# 이진 탐색 소스코드 구현
+# 이진 탐색 소스코드 구현 (재귀 함수)
 def binary_search(start, end, target, array):
     if start > end:
         return None
