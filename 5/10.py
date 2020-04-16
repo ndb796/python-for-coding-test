@@ -27,4 +27,5 @@ for i in range(n):
     for j in range(m):
         if dfs(i, j) == 1:
             result += 1
-print(result)
+
+print(result) # 정답 출력
