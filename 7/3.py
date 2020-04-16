@@ -1,4 +1,4 @@
-# 이진 탐색 소스코드 구현
+# 이진 탐색 소스코드 구현 (반복문)
 def binary_search(start, end, target, array):
     while start <= end:
         mid = (start + end) // 2
