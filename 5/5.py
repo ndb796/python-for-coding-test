@@ -14,5 +14,5 @@ def factorial_recursive(n):
     return n * factorial_recursive(n - 1)
 
 # 각각의 방식으로 구현한 n! 출력 (n = 5)
-print(factorial_iterative(5), end=' ')
-print(factorial_recursive(5))
+print('반복적으로 구현:', factorial_iterative(5))
+print('재귀적으로 구현:', factorial_recursive(5))
