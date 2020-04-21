@@ -115,64 +115,65 @@
 
 #### 11장 그리디
 
-* 저울
-* \* 혹은 +
-* 볼링공
-* 무지의 먹방 라이브
-* 뒤집기
+* [양팔 저울로 무게 재기](https://www.acmicpc.net/problem/2437) (BOJ 문제집)
+* \* 혹은 +로 연산하기 (Facebook 인터뷰 기출)
+* 볼링공 고르기 (S 기관 입학 테스트)
+* [무지의 먹방 라이브](https://www.acmicpc.net/problem/2437) (카카오)
+* [문자열 뒤집기](https://www.acmicpc.net/problem/1439) (BOJ 문제집)
     
 #### 12장 구현
 
-* 스타트와 링크
-* 다트 게임
-* 뱀
-* 치킨 배달
-* 재정렬
+* [시간 속 숫자 세기](https://www.acmicpc.net/problem/18312) (국내 S 교육 기관 선발 평가)
+* [스타트와 링크](https://www.acmicpc.net/problem/14889) (삼성)
+* [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) (카카오)
+* [뱀](https://www.acmicpc.net/problem/3190) (삼성)
+* [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성)
+* 문자열 재정렬 (Facebook 인터뷰 기출)
 
 #### 13장 DFS/BFS
 
-* 연구소
-* 연산자 끼워넣기
-* 괄호 변환
-* 인구 이동
-* 구슬 탈출 2
-* 나 잡아 봐라
+* [연구소](https://www.acmicpc.net/problem/14502) (삼성)
+* [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) (삼성)
+* [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) (카카오)
+* [인구 이동](https://www.acmicpc.net/problem/16234) (삼성)
+* [구슬 탈출 2](https://www.acmicpc.net/problem/13460) (삼성)
+* [나 잡아 봐라](https://engineering.linecorp.com/ko/blog/2019-firsthalf-line-internship-recruit-coding-test/) (Line)
 
 #### 14장 정렬
 
-* 국영수
-* 실패율
-* 안테나
-* 파일명 정렬
-* 카드 정렬하기
+* [국영수](https://www.acmicpc.net/problem/10825) (BOJ 문제집)
+* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오)
+* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가)
+* [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) (카카오)
+* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (BOJ 문제집)
 
 #### 15장 이진 탐색
 
-* 고정점 찾기
-* 특정 수만큼 차이나는 한 쌍 찾기
-* 정렬된 배열에서 특정 수의 개수 구하기
-* 공유기 설치
+* [고정점 찾기](https://www.geeksforgeeks.org/find-a-fixed-point-in-a-given-array/) (Amazon 인터뷰 기출)
+* [특정 수만큼 차이나는 한 쌍 찾기](https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/) (Amazon 인터뷰 기출)
+* [정렬된 배열에서 특정 수의 개수 구하기](https://www.geeksforgeeks.org/count-number-of-occurrences-or-frequency-in-a-sorted-array/) (Zoho 인터뷰 기출)
+* [공유기 설치](https://www.acmicpc.net/problem/2110) (BOJ 문제집)
 
 #### 16장 다이나믹 프로그래밍
 
-* 퇴사
-* 보행자 천국
-* 편집 거리
-* 못생긴 수들
-* 금광 문제
-* 정수 삼각형
+* [퇴사](https://www.acmicpc.net/problem/14501) (카카오)
+* [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832) (카카오)
+* [편집 거리](https://www.geeksforgeeks.org/edit-distance-dp-5/) (Goldman Sachs 인터뷰 기출)
+* [못생긴 수들](https://www.geeksforgeeks.org/ugly-numbers/) (Google 인터뷰 기출)
+* [금광 문제](https://www.geeksforgeeks.org/gold-mine-problem/) (Flipkart 인터뷰 기출)
+* [정수 삼각형](https://www.acmicpc.net/problem/1932) (IOI)
 
 #### 17장 최단 경로
 
-* 저울
-* 키 순서
-* 녹색 옷 입은 애가 젤다지?
-* 숨바꼭질
-    
+* [저울](https://www.acmicpc.net/problem/10159) (BOJ 문제집)
+* [키 순서](https://www.acmicpc.net/problem/2458) (한국 정보 올림피아드)
+* [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485) (ICPC)
+* [숨바꼭질](https://www.acmicpc.net/problem/6118) (COCI)
+  
 #### 18장 기타 그래프 이론
 
-* 여행 가자
-* 문자열 압축
-* 전력난
-* 행성 터널
-* 최종 순위
+* [여행 가자](https://www.acmicpc.net/problem/1976) (BOJ 문제집)
+* [문자열 압축](https://www.acmicpc.net/problem/10775) (CCC Senior Division)
+* [전력난](https://www.acmicpc.net/problem/6497) (University of Ulm Local Contest)
+* [행성 터널](https://www.acmicpc.net/problem/2887) (COCI)
+* [최종 순위](https://www.acmicpc.net/problem/3665) (NWERC 2010)
