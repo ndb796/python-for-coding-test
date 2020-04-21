@@ -32,6 +32,6 @@ solve()
 # 수행된 결과를 출력합니다.
 distance = adj[1][k] + adj[k][x]
 if distance >= 1e9:
-   print("-1")
+    print("-1")
 else:
-   print(distance)
+    print(distance)
