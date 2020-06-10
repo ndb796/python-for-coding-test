@@ -31,7 +31,7 @@ while True:
     turn_left()
     nx = x + dx[direction]
     ny = y + dy[direction]
-    # 왼쪽 방향에 가보지 않은 칸이 존재하는 경우 이동
+    # 회전한 이후 정면에 가보지 않은 칸이 존재하는 경우 이동
     if d[nx][ny] == 0 and array[nx][ny] == 0:
         d[nx][ny] = 1
         x = nx
@@ -39,7 +39,7 @@ while True:
         count += 1
         turn_time = 0
         continue
-    # 왼쪽 방향에 가보지 않은 칸이 없는 경우
+    # 회전한 이후 정면에 가보지 않은 칸이 없는 경우
     else:
         turn_time += 1
     # 네 방향 모두 갈 수 없는 경우
