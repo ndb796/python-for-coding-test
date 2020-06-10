@@ -4,7 +4,7 @@ n, k = map(int, input().split())
 result = 0
 
 while True:
-    # (N == K로 나누어 떨어지는 수)가 될 때까지만 1씩 빼기
+    # N이 K로 나누어 떨어지는 수가 될 때까지만 1씩 빼기
     target = (n // k) * k
     result += (n - target)
     n = target
