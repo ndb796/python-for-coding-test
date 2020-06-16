@@ -4,7 +4,7 @@ def sequential_search(n, target, array):
     for i in range(n):
         # 현재의 원소가 찾고자 하는 원소와 동일한 경우
         if array[i] == target:
-            return i + 1 # 현재의 위치(인덱스) 반환
+            return i + 1 # 현재의 위치 반환 (인덱스는 0부터 시작하므로 1 더하기)
 
 print("생성할 원소 개수를 입력한 다음 한 칸 띄고 찾을 문자열을 입력하세요.")
 input_data = input().split()
