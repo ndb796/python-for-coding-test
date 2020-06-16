@@ -3,7 +3,7 @@ n = int(input())
 # 모든 식량 정보 입력 받기
 array = list(map(int, input().split()))
 
-# 한 번 계산된 결과를 저장하기 위한 DP 테이블 초기화
+# 앞서 계산된 결과를 저장하기 위한 DP 테이블 초기화
 d = [0] * 100
 
 # 다이나믹 프로그래밍(Dynamic Programming) 진행 (보텀업)
