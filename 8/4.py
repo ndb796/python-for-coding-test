@@ -1,10 +1,10 @@
 # 정수 X를 입력 받기
 x = int(input())
 
-# 한 번 계산된 결과를 메모이제이션(Memoization)하기 위한 리스트 초기화
+# 한 번 계산된 결과를 저장하기 위한 DP 테이블 초기화
 d = [0] * 1000001
 
-# 다이나믹 프로그래밍(Dynamic Programming) 진행 (Bottom-top)
+# 다이나믹 프로그래밍(Dynamic Programming) 진행 (보텀업)
 for i in range(2, x + 1):
     # 현재의 수에서 1을 빼는 경우
     d[i] = d[i - 1] + 1
