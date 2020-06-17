@@ -16,7 +16,7 @@ def union_parent(parent, a, b):
 
 # 노드의 개수와 간선(Union 연산)의 개수 입력 받기
 v, e = map(int, input().split())
-parent = {}
+parent = [0] * (v + 1) # 부모 테이블 초기화하기
 
 # 부모 테이블상에서, 부모를 자기 자신으로 초기화
 for i in range(1, v + 1):
