@@ -15,7 +15,7 @@ def union_parent(parent, a, b):
         parent[a] = b
 
 n, m = map(int, input().split())
-parent = {}
+parent = [0] * (n + 1) # 부모 테이블 초기화하기
 
 # 부모 테이블상에서, 부모를 자기 자신으로 초기화
 for i in range(0, n + 1):
