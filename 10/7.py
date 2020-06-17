@@ -16,7 +16,7 @@ def union_parent(parent, a, b):
 
 # 노드의 개수와 간선(Union 연산)의 개수 입력 받기
 v, e = map(int, input().split())
-parent = {}
+parent = [0] * (v + 1) # 부모 테이블 초기화하기
 
 # 모든 간선을 담을 리스트와, 최종 비용을 담을 변수
 edges = []
@@ -34,7 +34,7 @@ for _ in range(e):
 
 # 간선을 비용순으로 정렬
 edges.sort()
-last = 0
+last = 0 # 최소 신장 트리에 포함되는 간선 중에서 가장 비용이 큰 간선
 
 # 간선을 하나씩 확인하며
 for edge in edges:
