@@ -16,7 +16,7 @@ def union_parent(parent, a, b):
 
 # 노드의 개수와 간선(Union 연산)의 개수 입력 받기
 v, e = map(int, input().split())
-parent = {}
+parent = [0] * (v + 1) # 부모 테이블 초기화하기
 
 # 모든 간선을 담을 리스트와, 최종 비용을 담을 변수
 edges = []
