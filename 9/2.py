@@ -10,6 +10,7 @@ start = int(input())
 adj = [[] for i in range (n + 1)]
 # 최단 거리 테이블을 모두 무한(10억)으로 초기화합니다.
 distance = [1e9] * (n + 1)
+
 # 모든 간선 정보를 입력 받습니다.
 for _ in range(m):
     a, b, c = map(int, input().split())
