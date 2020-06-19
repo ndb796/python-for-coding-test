@@ -22,7 +22,7 @@
     * 동빈이의 큰 수의 법칙: [Python 3.7 코드](/3/2.py)
     * 숫자 카드게임: [Python 3.7 코드](/3/3.py)
     * 1이 될 때까지: [Python 3.7 코드](/3/4.py)
-    
+
 #### 4장 구현
 
 * 이론
@@ -97,7 +97,7 @@
 * 실전
     * 미래 도시: [Python 3.7 코드](/9/4.py)
     * 전보: [Python 3.7 코드](/9/5.py)
-    
+
 #### 10장 기타 그래프 이론
 
 * 이론
@@ -128,55 +128,54 @@
 * 문자열 재정렬 (Facebook 인터뷰 기출): [Python 3.7 코드]
 * [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) (카카오): [Python 3.7 코드]
 * [뱀](https://www.acmicpc.net/problem/3190) (삼성): [Python 3.7 코드]
-* [스타트와 링크](https://www.acmicpc.net/problem/14889) (삼성): [Python 3.7 코드]
 * [기둥과 보](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오): [Python 3.7 코드]
 * [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성): [Python 3.7 코드]
 * [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오): [Python 3.7 코드]
 
 #### 13장 DFS/BFS
 
-* [연구소](https://www.acmicpc.net/problem/14502) (삼성)
-* [경쟁적 전염](https://www.acmicpc.net/problem/18405) (핵심 유형)
-* [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) (카카오)
-* [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) (삼성)
-* [감시 피하기](https://www.acmicpc.net/problem/18428) (핵심 유형)
-* [인구 이동](https://www.acmicpc.net/problem/16234) (삼성)
+* [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) (핵심 유형): [Python 3.7 코드]
+* [연구소](https://www.acmicpc.net/problem/14502) (삼성): [Python 3.7 코드]
+* [경쟁적 전염](https://www.acmicpc.net/problem/18405) (핵심 유형): [Python 3.7 코드]
+* [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) (카카오): [Python 3.7 코드]
+* [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) (삼성): [Python 3.7 코드]
+* [감시 피하기](https://www.acmicpc.net/problem/18428) (핵심 유형): [Python 3.7 코드]
+* [인구 이동](https://www.acmicpc.net/problem/16234) (삼성): [Python 3.7 코드]
 
 #### 14장 정렬
 
 * [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형)
 * [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가)
 * [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오)
-* [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) (카카오)
 * [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형)
 
 #### 15장 이진 탐색
 
-* 정렬된 배열에서 특정 수의 개수 구하기 (Zoho 인터뷰 기출)
-* 고정점 찾기 (Amazon 인터뷰 기출)
-* 영역 (핵심 유형)
-* [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060) (카카오)
+* 정렬된 배열에서 특정 수의 개수 구하기 (Zoho 인터뷰 기출): [Python 3.7 코드]
+* 고정점 찾기 (Amazon 인터뷰 기출): [Python 3.7 코드]
+* 영역 다툼 (핵심 유형): [Python 3.7 코드]
+* [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060) (카카오): [Python 3.7 코드]
 
 #### 16장 다이나믹 프로그래밍
 
-* [퇴사](https://www.acmicpc.net/problem/14501) (카카오 기출)
-* [병사 배치하기](https://www.acmicpc.net/problem/18353) (자체 제작)
-* [못생긴 수들](https://www.geeksforgeeks.org/ugly-numbers/) (Google 인터뷰 기출)
-* [금광 문제](https://www.geeksforgeeks.org/gold-mine-problem/) (Flipkart 인터뷰 기출)
-* [정수 삼각형](https://www.acmicpc.net/problem/1932) (IOI 기출)
-* [편집 거리](https://www.geeksforgeeks.org/edit-distance-dp-5/) (Goldman Sachs 인터뷰 기출)
+* 금광 (Flipkart 인터뷰 기출): [Python 3.7 코드]
+* 정수 삼각형(https://www.acmicpc.net/problem/1932) (IOI): [Python 3.7 코드]
+* [퇴사](https://www.acmicpc.net/problem/14501) (삼성): [Python 3.7 코드]
+* [병사 배치하기](https://www.acmicpc.net/problem/18353) (핵심 유형): [Python 3.7 코드]
+* 못생긴 수 (Google 인터뷰 기출): [Python 3.7 코드]
+* 편집 거리 (Goldman Sachs 인터뷰 기출): [Python 3.7 코드]
 
 #### 17장 최단 경로
 
-* [저울](https://www.acmicpc.net/problem/10159) (BOJ 문제집)
-* [키 순서](https://www.acmicpc.net/problem/2458) (한국 정보 올림피아드)
-* [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485) (ICPC)
-* [숨바꼭질](https://www.acmicpc.net/problem/6118) (COCI)
-  
+* [플로이드](https://www.acmicpc.net/problem/11404) (핵심 유형): [Python 3.7 코드]
+* 정확한 순위 (K 대회 기출): [Python 3.7 코드]
+* 장애물 경주 (ICPC): [Python 3.7 코드]
+* 숨바꼭질 (USACO): [Python 3.7 코드]
+
 #### 18장 기타 그래프 이론
 
-* [여행 가자](https://www.acmicpc.net/problem/1976) (BOJ 문제집)
-* [문자열 압축](https://www.acmicpc.net/problem/10775) (CCC Senior Division)
-* [전력난](https://www.acmicpc.net/problem/6497) (University of Ulm Local Contest)
-* [행성 터널](https://www.acmicpc.net/problem/2887) (COCI)
-* [최종 순위](https://www.acmicpc.net/problem/3665) (NWERC 2010)
+* 사랑의 메신저 (핵심 유형): [Python 3.7 코드]
+* 탑승구 (CCC): [Python 3.7 코드]
+* 어두운 길 (University of Ulm Local Contest): [Python 3.7 코드]
+* [행성 터널](https://www.acmicpc.net/problem/2887) (COCI): [Python 3.7 코드]
+* [최종 순위](https://www.acmicpc.net/problem/3665) (ICPC): [Python 3.7 코드]
