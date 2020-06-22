@@ -1,7 +1,7 @@
 def solution(s):
     answer = len(s)
     # 1개 단위(step)부터 압축 단위를 늘려가며 확인
-    for step in range(1, len(s)):
+    for step in range(1, len(s) // 2 + 1):
         compressed = ""
         prev = s[0:step] # 앞에서부터 step만큼의 문자열 추출
         count = 1
