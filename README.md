@@ -115,12 +115,12 @@
 
 #### 11장 그리디
 
-* 모험가 (핵심 유형): [Python 3.7 코드]
-* 곱하기 혹은 더하기 (Facebook 인터뷰 기출): [Python 3.7 코드]
-* [문자열 뒤집기](https://www.acmicpc.net/problem/1439) (핵심 유형): [Python 3.7 코드]
-* 만들 수 없는 금액 (K 대회 기출): [Python 3.7 코드]
-* 볼링공 고르기 (S 기관 입학 테스트): [Python 3.7 코드]
-* [무지의 먹방 라이브](https://www.acmicpc.net/problem/2437) (카카오): [Python 3.7 코드]
+* 모험가 (핵심 유형): [Python 3.7 코드](/11/1.py)
+* 곱하기 혹은 더하기 (Facebook 인터뷰 기출): [Python 3.7 코드](/11/2.py)
+* [문자열 뒤집기](https://www.acmicpc.net/problem/1439) (핵심 유형): [Python 3.7 코드](/11/3.py)
+* 만들 수 없는 금액 (K 대회 기출): [Python 3.7 코드](/11/4.py)
+* 볼링공 고르기 (S 기관 입학 테스트): [Python 3.7 코드](/11/5.py)
+* [무지의 먹방 라이브](https://www.acmicpc.net/problem/2437) (카카오): [Python 3.7 코드](/11/6.py)
 
 #### 12장 구현
 
@@ -159,7 +159,7 @@
 #### 16장 다이나믹 프로그래밍
 
 * 금광 (Flipkart 인터뷰 기출): [Python 3.7 코드]
-* 정수 삼각형(https://www.acmicpc.net/problem/1932) (IOI): [Python 3.7 코드]
+* [정수 삼각형](https://www.acmicpc.net/problem/1932) (IOI): [Python 3.7 코드]
 * [퇴사](https://www.acmicpc.net/problem/14501) (삼성): [Python 3.7 코드]
 * [병사 배치하기](https://www.acmicpc.net/problem/18353) (핵심 유형): [Python 3.7 코드]
 * 못생긴 수 (Google 인터뷰 기출): [Python 3.7 코드]
