@@ -118,7 +118,7 @@
 * 모험가 (핵심 유형): [Python 3.7 코드]
 * 곱하기 혹은 더하기 (Facebook 인터뷰 기출): [Python 3.7 코드]
 * [문자열 뒤집기](https://www.acmicpc.net/problem/1439) (핵심 유형): [Python 3.7 코드]
-* 거슬러 줄 수 없는 금액 (K 대회 기출): [Python 3.7 코드]
+* 만들 수 없는 금액 (K 대회 기출): [Python 3.7 코드]
 * 볼링공 고르기 (S 기관 입학 테스트): [Python 3.7 코드]
 * [무지의 먹방 라이브](https://www.acmicpc.net/problem/2437) (카카오): [Python 3.7 코드]
 
