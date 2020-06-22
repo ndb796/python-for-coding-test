@@ -124,14 +124,14 @@
 
 #### 12장 구현
 
-* [럭키 스트레이트](https://www.acmicpc.net/problem/18406) (핵심 유형): [Python 3.7 코드]
-* 문자열 재정렬 (Facebook 인터뷰 기출): [Python 3.7 코드]
-* [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) (카카오): [Python 3.7 코드]
-* [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) (카카오): [Python 3.7 코드]
-* [뱀](https://www.acmicpc.net/problem/3190) (삼성): [Python 3.7 코드]
-* [기둥과 보](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오): [Python 3.7 코드]
-* [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성): [Python 3.7 코드]
-* [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오): [Python 3.7 코드]
+* [럭키 스트레이트](https://www.acmicpc.net/problem/18406) (핵심 유형): [Python 3.7 코드](/12/1.py)
+* 문자열 재정렬 (Facebook 인터뷰 기출): [Python 3.7 코드](/12/2.py)
+* [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) (카카오): [Python 3.7 코드](/12/3.py)
+* [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) (카카오): [Python 3.7 코드](/12/4.py)
+* [뱀](https://www.acmicpc.net/problem/3190) (삼성): [Python 3.7 코드](/12/5.py)
+* [기둥과 보](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오): [Python 3.7 코드](/12/6.py)
+* [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성): [Python 3.7 코드](/12/7.py)
+* [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오): [Python 3.7 코드](/12/8.py)
 
 #### 13장 DFS/BFS
 
@@ -145,10 +145,10 @@
 
 #### 14장 정렬
 
-* [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형)
-* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가)
-* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오)
-* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형)
+* [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형): [Python 3.7 코드]
+* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가): [Python 3.7 코드]
+* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오): [Python 3.7 코드]
+* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형): [Python 3.7 코드]
 
 #### 15장 이진 탐색
 
