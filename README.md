@@ -153,10 +153,10 @@
 
 #### 15장 이진 탐색
 
-* 정렬된 배열에서 특정 수의 개수 구하기 (Zoho 인터뷰 기출): [Python 3.7 코드]
-* 고정점 찾기 (Amazon 인터뷰 기출): [Python 3.7 코드]
-* 영역 다툼 (핵심 유형): [Python 3.7 코드]
-* [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060) (카카오): [Python 3.7 코드]
+* 정렬된 배열에서 특정 수의 개수 구하기 (Zoho 인터뷰 기출): [Python 3.7 코드](/15/1.py)
+* 고정점 찾기 (Amazon 인터뷰 기출): [Python 3.7 코드](/15/2.py)
+* 영역 다툼 (핵심 유형): [Python 3.7 코드](/15/3.py)
+* [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060) (카카오): [Python 3.7 코드](/15/4.py)
 
 #### 16장 다이나믹 프로그래밍
 
