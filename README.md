@@ -146,10 +146,10 @@
 
 #### 14장 정렬
 
-* [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형): [Python 3.7 코드]
-* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가): [Python 3.7 코드]
-* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오): [Python 3.7 코드]
-* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형): [Python 3.7 코드]
+* [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형): [Python 3.7 코드](/14/1.py)
+* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가): [Python 3.7 코드](/14/2.py)
+* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오): [Python 3.7 코드](/14/3.py)
+* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형): [Python 3.7 코드](/14/4.py)
 
 #### 15장 이진 탐색
 
