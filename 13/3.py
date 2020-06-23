@@ -1,9 +1,9 @@
 from collections import deque
+
 n, k = map(int, input().split())
 
-# N x N 크기의 보드 전체를 0으로 초기화
-board = []
-data = [] 
+board = [] # 전체 보드 정보를 담는 리스트
+data = [] # 바이러스에 대한 정보를 담는 리스트
 
 for i in range(n):
     # 보드 정보를 한 줄 단위로 입력
@@ -35,7 +35,7 @@ while q:
         ny = y + dy[i]
         # 해당 위치로 이동할 수 있는 경우
         if 0 <= nx and nx < n and 0 <= ny and ny < n:
-            # 방문한 적 없다면, 그 위치에 바이러스 넣기
+            # 아직 방문하지 않은 위치라면, 그 위치에 바이러스 넣기
             if board[nx][ny] == 0:
                 board[nx][ny] = virus
                 q.append((virus, s + 1, nx, ny))
