@@ -160,12 +160,12 @@
 
 #### 16장 다이나믹 프로그래밍
 
-* 금광 (Flipkart 인터뷰 기출): [Python 3.7 코드]
-* [정수 삼각형](https://www.acmicpc.net/problem/1932) (IOI): [Python 3.7 코드]
-* [퇴사](https://www.acmicpc.net/problem/14501) (삼성): [Python 3.7 코드]
-* [병사 배치하기](https://www.acmicpc.net/problem/18353) (핵심 유형): [Python 3.7 코드]
-* 못생긴 수 (Google 인터뷰 기출): [Python 3.7 코드]
-* 편집 거리 (Goldman Sachs 인터뷰 기출): [Python 3.7 코드]
+* 금광 (Flipkart 인터뷰 기출): [Python 3.7 코드](/16/1.py)
+* [정수 삼각형](https://www.acmicpc.net/problem/1932) (IOI): [Python 3.7 코드](/16/2.py)
+* [퇴사](https://www.acmicpc.net/problem/14501) (삼성): [Python 3.7 코드](/16/3.py)
+* [병사 배치하기](https://www.acmicpc.net/problem/18353) (핵심 유형): [Python 3.7 코드](/16/4.py)
+* 못생긴 수 (Google 인터뷰 기출): [Python 3.7 코드](/16/5.py)
+* 편집 거리 (Goldman Sachs 인터뷰 기출): [Python 3.7 코드](/16/6.py)
 
 #### 17장 최단 경로
 
