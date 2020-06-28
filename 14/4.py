@@ -2,7 +2,7 @@ import heapq
 
 n = int(input())
 
-# 힙(Heap) 자료구조에 초기 카드 묶음을 삽입
+# 힙(Heap)에 초기 카드 묶음을 모두 삽입
 heap = []
 for i in range(n):
     data = int(input())
