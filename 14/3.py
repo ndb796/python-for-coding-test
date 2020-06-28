@@ -13,7 +13,7 @@ def solution(N, stages):
         else:
             fail = count / length
         
-        # 리스트에 원소 삽입
+        # 리스트에 (스테이지 번호, 실패율) 원소 삽입
         answer.append((i, fail))
         length -= count
 
