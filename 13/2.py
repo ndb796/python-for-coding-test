@@ -11,7 +11,7 @@ dy = [0, 1, 0, -1]
 
 result = 0
 
-# 각 바이러스가 사방으로 퍼짐
+# 깊이 우선 탐색(DFS)을 이용해 각 바이러스가 사방으로 퍼지도록 하기
 def virus(x, y):
     for i in range(4):
         nx = x + dx[i]
@@ -23,7 +23,7 @@ def virus(x, y):
                 temp[nx][ny] = 2
                 virus(nx, ny)
 
-# 현재 맵에서 안전 영역의 크기 계산
+# 현재 맵에서 안전 영역의 크기 계산하는 메서드
 def get_score():
     score = 0
     for i in range(n):
@@ -32,7 +32,7 @@ def get_score():
                 score += 1
     return score
 
-# 재귀적으로 울타리를 설치하면서, 안전 영역의 크기 계산
+# 깊이 우선 탐색(DFS)을 이용해 울타리를 설치하면서, 매 번 안전 영역의 크기 계산
 def dfs(count):
     global result
     # 울타리가 3개 설치된 경우
@@ -40,7 +40,7 @@ def dfs(count):
         for i in range(n):
             for j in range(m):
                 temp[i][j] = data[i][j]
-        # 각 바이러스의 위치에서 전파 진행
+        # 각 바이러스의 위치에서 전파 진행해보기
         for i in range(n):
             for j in range(m):
                 if temp[i][j] == 2:
