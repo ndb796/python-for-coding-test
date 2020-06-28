@@ -1,16 +1,17 @@
 from itertools import combinations
 
-n = int(input())
-a = []
-teachers = []
-spaces = []
+n = int(input()) # 복도의 크기
+board = [] # 복도 정보 (N x N)
+teachers = [] # 모든 선생님 위치 정보
+spaces = [] # 모든 빈 공간 위치 정보
+
 for i in range(n):
     a.append(list(input().split()))
     for j in range(n):
         # 선생님이 존재하는 위치 저장
         if a[i][j] == 'T':
             teachers.append((i, j))
-        # 장애물을 설치할 수 있는 위치 저장
+        # 장애물을 설치할 수 있는 (빈 공간) 위치 저장
         if a[i][j] == 'X':
             spaces.append((i, j))
 
@@ -60,8 +61,11 @@ def process():
                 return True
     return False
 
-find = False
+find = False # 학생이 한 명도 감지되지 않도록 설치할 수 있는지의 여부
+
+# 빈 공간에서 3개를 뽑는 모든 조합을 확인
 for data in combinations(spaces, 3):
+    # 장애물들을 설치해보기
     for x, y in data:
         a[x][y] = 'O'
     # 학생이 한 명도 감지되지 않는 경우
@@ -69,6 +73,7 @@ for data in combinations(spaces, 3):
         # 원하는 경우를 발견한 것임
         find = True
         break
+    # 설치된 장애물을 다시 없애기
     for x, y in data:
         a[x][y] = 'X'
 
