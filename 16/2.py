@@ -16,7 +16,7 @@ for i in range(1, n):
         if j == i:
             up = 0
         else:
-            up = data[i - 1][j]
+            up = dp[i - 1][j]
         # 최대 합을 저장
         dp[i][j] = dp[i][j] + max(up_left, up)
 
