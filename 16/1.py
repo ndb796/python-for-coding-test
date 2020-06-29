@@ -2,13 +2,13 @@
 for tc in range(int(input())):
     # 금광 정보 입력
     n, m = map(int, input().split())
-    data = list(map(int, input().split()))
+    array = list(map(int, input().split()))
 
     # 다이나믹 프로그래밍을 위한 2차원 DP 테이블 초기화
     dp = []
     index = 0
     for i in range(n):
-        dp.append(data[index:index + m])
+        dp.append(array[index:index + m])
         index += m
 
     # 다이나믹 프로그래밍 진행
