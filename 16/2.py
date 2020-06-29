@@ -20,4 +20,4 @@ for i in range(1, n):
         # 최대 합을 저장
         dp[i][j] = dp[i][j] + max(up_left, up)
 
-print(max(data[n - 1]))
+print(max(dp[n - 1]))
