@@ -1,5 +1,5 @@
 n = int(input())
-dp = []
+dp = [] # 다이나믹 프로그래밍을 위한 DP 테이블 초기화
 
 for _ in range(n):
     dp.append(list(map(int, input().split())))
