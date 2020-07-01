@@ -176,7 +176,7 @@
 
 #### 18장 기타 그래프 이론
 
-* 사랑의 메신저 (핵심 유형): [Python 3.7 코드](/18/1.py)
+* 여행 계획 (핵심 유형): [Python 3.7 코드](/18/1.py)
 * 탑승구 (CCC): [Python 3.7 코드](/18/2.py)
 * 어두운 길 (University of Ulm Local Contest): [Python 3.7 코드](/18/3.py)
 * [행성 터널](https://www.acmicpc.net/problem/2887) (COCI): [Python 3.7 코드](/18/4.py)
