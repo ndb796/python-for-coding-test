@@ -169,18 +169,18 @@
 
 #### 17장 최단 경로
 
-* [플로이드](https://www.acmicpc.net/problem/11404) (핵심 유형): [Python 3.7 코드]
-* 정확한 순위 (K 대회 기출): [Python 3.7 코드]
-* 장애물 경주 (ICPC): [Python 3.7 코드]
-* 숨바꼭질 (USACO): [Python 3.7 코드]
+* [플로이드](https://www.acmicpc.net/problem/11404) (핵심 유형): [Python 3.7 코드](/17/1.py)
+* 정확한 순위 (K 대회 기출): [Python 3.7 코드](/17/2.py)
+* 장애물 경주 (ICPC): [Python 3.7 코드](/17/3.py)
+* 숨바꼭질 (USACO): [Python 3.7 코드](/17/4.py)
 
 #### 18장 기타 그래프 이론
 
-* 사랑의 메신저 (핵심 유형): [Python 3.7 코드]
-* 탑승구 (CCC): [Python 3.7 코드]
-* 어두운 길 (University of Ulm Local Contest): [Python 3.7 코드]
-* [행성 터널](https://www.acmicpc.net/problem/2887) (COCI): [Python 3.7 코드]
-* [최종 순위](https://www.acmicpc.net/problem/3665) (ICPC): [Python 3.7 코드]
+* 사랑의 메신저 (핵심 유형): [Python 3.7 코드](/18/1.py)
+* 탑승구 (CCC): [Python 3.7 코드](/18/2.py)
+* 어두운 길 (University of Ulm Local Contest): [Python 3.7 코드](/18/3.py)
+* [행성 터널](https://www.acmicpc.net/problem/2887) (COCI): [Python 3.7 코드](/18/4.py)
+* [최종 순위](https://www.acmicpc.net/problem/3665) (ICPC): [Python 3.7 코드](/18/5.py)
 
 ### Part 4 부록
 
