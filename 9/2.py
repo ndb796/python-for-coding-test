@@ -19,11 +19,11 @@ for _ in range(m):
     graph[a].append((b, c))
 
 def dijkstra(start):
-   q = []
-   # 시작 노드로 가기 위한 최단 경로는 0으로 설정하여, 큐에 삽입합니다.
-   heapq.heappush(q, (0, start))
-   distance[start] = 0
-   while q: # 큐가 비어있지 않다면
+    q = []
+    # 시작 노드로 가기 위한 최단 경로는 0으로 설정하여, 큐에 삽입합니다.
+    heapq.heappush(q, (0, start))
+    distance[start] = 0
+    while q: # 큐가 비어있지 않다면
         # 가장 최단 거리가 짧은 노드에 대한 정보를 꺼냅니다.
         dist, now = heapq.heappop(q)
         # 현재 노드가 이미 처리된 적이 있는 노드라면 무시합니다.
