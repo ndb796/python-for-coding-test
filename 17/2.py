@@ -24,7 +24,7 @@ for k in range(1, n + 1):
             graph[a][b] = min(graph[a][b], graph[a][k] + graph[k][b])
 
 result = 0
-# 각 학생을 번호에 따라 한 명씩 확인하며 도달 가능한지 체크
+# 각 학생을 번호에 따라 한 명씩 확인하며 도달 가능한지 체크합니다.
 for i in range(1, n + 1):
     count = 0
     for j in range(1, n + 1):
