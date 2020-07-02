@@ -245,7 +245,7 @@
     * 순열: [Python 3.7 코드](/20/6.py)
     * 조합: [Python 3.7 코드](/20/7.py)
 * 실전
-    * 소수 구하기: [Python 3.7 코드](/20/8.py)
-    * 암호 만들기: [Python 3.7 코드](/20/9.py)
+    * [소수 구하기](https://www.acmicpc.net/problem/1929) (핵심 유형): [Python 3.7 코드](/20/8.py)
+    * [암호 만들기](https://www.acmicpc.net/problem/1759) (핵심 유형): [Python 3.7 코드](/20/9.py)
 
 #### 부록 C 코딩 테스트 유형 분석
