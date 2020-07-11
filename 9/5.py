@@ -41,11 +41,11 @@ dijkstra(start)
 count = 0
 # 도달할 수 있는 노드 중에서, 가장 멀리 있는 노드와의 최단 거리
 max_distance = 0
-for x in distance:
+for d in distance:
     # 도달할 수 있는 노드인 경우
-    if x != 1e9:
+    if d != 1e9:
         count += 1
-        max_distance = max(max_distance, x)
+        max_distance = max(max_distance, d)
 
 # 시작 노드는 제외해야 하므로 count - 1을 출력합니다.
 print(count - 1, max_distance)
