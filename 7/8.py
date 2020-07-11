@@ -12,10 +12,10 @@ result = 0
 while(start <= end):
     total = 0
     mid = (start + end) // 2
-    for i in array:
+    for x in array:
         # 잘랐을 때의 떡볶이 양 계산
-        if i > mid:
-            total += i - mid
+        if x > mid:
+            total += x - mid
     # 떡볶이 양이 부족한 경우 더 많이 자르기 (오른쪽 부분 탐색)
     if total < m:
         end = mid - 1
