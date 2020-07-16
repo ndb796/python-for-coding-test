@@ -53,7 +53,7 @@ def move_all_fishes(array, now_x, now_y):
 def get_possible_positions(array, now_x, now_y):
     positions = []
     direction = array[now_x][now_y][1]
-    # 현재의 방향으로 쭉 이동하며
+    # 현재의 방향으로 쭉 이동하기
     for i in range(4):
         now_x += dx[direction]
         now_y += dy[direction]
