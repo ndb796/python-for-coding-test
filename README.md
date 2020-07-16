@@ -182,6 +182,12 @@
 * [행성 터널](https://www.acmicpc.net/problem/2887) (COCI): [Python 3.7 코드](/18/4.py)
 * [최종 순위](https://www.acmicpc.net/problem/3665) (ICPC): [Python 3.7 코드](/18/5.py)
 
+#### 19장 S기업 최신 기출
+
+* [아기 상어](https://www.acmicpc.net/problem/16236): [Python 3.7 코드](19/1.py)
+* [청소년 상어](https://www.acmicpc.net/problem/19236): [Python 3.7 코드](19/2.py)
+* [어른 상어](https://www.acmicpc.net/problem/19237): [Python 3.7 코드](19/3.py)
+
 ### Part 4 부록
 
 #### 부록 A 파이썬 문법
