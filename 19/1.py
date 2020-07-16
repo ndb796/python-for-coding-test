@@ -1,5 +1,5 @@
 from collections import deque
-INF = 1e9 # 무한 상수
+INF = 1e9 # 무한을 의미하는 값으로 10억을 설정
 
 # 맵의 크기 N 입력
 n = int(input())
@@ -9,7 +9,7 @@ array = []
 for i in range(n):
     array.append(list(map(int, input().split())))
 
-# 아기 상어의 현재 크기와 현재 위치를 나타내는 변수
+# 아기 상어의 현재 크기 변수와 현재 위치 변수
 now_size = 2
 now_x, now_y = 0, 0
 
