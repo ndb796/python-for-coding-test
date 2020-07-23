@@ -3,7 +3,8 @@
 
 * 이 저장소는 <b>이것이 취업을 위한 코딩 테스트다 with Python</b> (나동빈 저, 한빛미디어) 전체 소스코드를 포함하고 있습니다.
 * 본 책은 Python 3.7 문법을 활용하였으나, 추가적으로 Java, C++11 소스코드를 제공할 예정입니다.
-* 소스코드와 관련한 궁금한 점이나 오류 관련 문의는 [Issues](https://github.com/ndb796/python-for-coding-test/issues) 탭을 이용하여 남겨주세요.
+* 책 내용 및 소스코드와 관련한 궁금한 점은 [Issues](https://github.com/ndb796/python-for-coding-test/issues) 탭을 이용하여 남겨주세요.
+* 책의 오류 사항을 발견하시면 dongbinna@postech.ac.kr로 보내주시면 감사하겠습니다.
 
 <hr>
 
