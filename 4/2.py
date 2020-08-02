@@ -1,4 +1,4 @@
-# H 입력 받기
+# H를 입력받기
 h = int(input())
 
 count = 0
