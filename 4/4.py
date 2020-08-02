@@ -1,13 +1,13 @@
-# N, M을 공백을 기준으로 구분하여 입력 받기
+# N, M을 공백을 기준으로 구분하여 입력받기
 n, m = map(int, input().split())
 
-# 방문한 위치를 저장하기 위한 맵을 생성하여 0으로 초기화합니다.
+# 방문한 위치를 저장하기 위한 맵을 생성하여 0으로 초기화
 d = [[0] * m for _ in range(n)]
-# 현재 캐릭터의 X 좌표, Y 좌표, 방향을 입력 받기
+# 현재 캐릭터의 X 좌표, Y 좌표, 방향을 입력받기
 x, y, direction = map(int, input().split())
 d[x][y] = 1 # 현재 좌표 방문 처리
 
-# 전체 맵 정보를 입력 받습니다.
+# 전체 맵 정보를 입력받기
 array = []
 for i in range(n):
     array.append(list(map(int, input().split())))
@@ -46,7 +46,7 @@ while True:
     if turn_time == 4:
         nx = x - dx[direction]
         ny = y - dy[direction]
-        # 뒤로 갈 수 있다면 이동합니다.
+        # 뒤로 갈 수 있다면 이동하기
         if array[nx][ny] == 0:
             x = nx
             y = ny
@@ -55,5 +55,5 @@ while True:
             break
         turn_time = 0
 
-# 정답을 출력합니다.
+# 정답 출력
 print(count)
