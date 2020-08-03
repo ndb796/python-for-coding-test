@@ -30,7 +30,7 @@ for i in range(e):
     if find_parent(parent, a) == find_parent(parent, b):
         cycle = True
         break
-    # 사이클이 발생하지 않았다면 합치기(Union) 수행
+    # 사이클이 발생하지 않았다면 합집합(Union) 연산 수행
     else:
         union_parent(parent, a, b)
 
