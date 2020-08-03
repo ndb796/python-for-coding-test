@@ -3,7 +3,7 @@
 using namespace std;
 
 int n, m;
-int graph[1001][1001];
+int graph[1000][1000];
 
 // DFS로 특정 노드를 방문하고 연결된 모든 노드들도 방문
 bool dfs(int x, int y) {
