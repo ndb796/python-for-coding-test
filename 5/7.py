@@ -9,6 +9,6 @@ graph[0].append((2, 5))
 graph[1].append((0, 7))
 
 # 노드 2에 연결된 노드 정보 저장 (노드, 거리)
-graph[2].append((0, 5)
+graph[2].append((0, 5))
 
 print(graph)
