@@ -15,7 +15,7 @@ def union_parent(parent, a, b):
         parent[a] = b
 
 n, m = map(int, input().split())
-parent = [0] * (n + 1) # 부모 테이블 초기화하기
+parent = [0] * (n + 1) # 부모 테이블 초기화
 
 # 부모 테이블상에서, 부모를 자기 자신으로 초기화
 for i in range(0, n + 1):
@@ -24,7 +24,7 @@ for i in range(0, n + 1):
 # 각 연산을 하나씩 확인한다.
 for i in range(m):
     oper, a, b = map(int, input().split())
-    # 합치기(Union) 연산인 경우
+    # 합치합(Union) 연산인 경우
     if oper == 0:
         union_parent(parent, a, b)
     # 찾기(Find) 연산인 경우
