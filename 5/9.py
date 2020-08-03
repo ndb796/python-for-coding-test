@@ -8,7 +8,7 @@ def bfs(graph, start, visited):
     visited[start] = True
     # 큐가 빌 때까지 반복
     while queue:
-        # 큐에서 하나의 원소를 뽑아 출력하기
+        # 큐에서 하나의 원소를 뽑아 출력
         v = queue.popleft()
         print(v, end=' ')
         # 해당 원소와 연결된, 아직 방문하지 않은 원소들을 큐에 삽입
@@ -17,7 +17,7 @@ def bfs(graph, start, visited):
                 queue.append(i)
                 visited[i] = True
 
-# 각 노드가 연결된 정보를 리스트 자료형으로 표현 (2차원 리스트)
+# 각 노드가 연결된 정보를 리스트 자료형으로 표현(2차원 리스트)
 graph = [
   [],
   [2, 3, 8],
@@ -30,7 +30,7 @@ graph = [
   [1, 7]
 ]
 
-# 각 노드가 방문된 정보를 리스트 자료형으로 표현 (1차원 리스트)
+# 각 노드가 방문된 정보를 리스트 자료형으로 표현(1차원 리스트)
 visited = [False] * 9
 
 # 정의된 BFS 함수 호출
