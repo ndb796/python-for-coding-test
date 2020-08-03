@@ -1,15 +1,7 @@
-# N 입력 받기
-n = int(input())
+array = [('바나나', 2), ('사과', 5), ('당근', 3)]
 
-count = [0] * 10001
-result = -1 # 가장 많이 가지고 있는 신발 번호
-max_value = 0 # 가장 많이 가지고 있는 신발 번호의 신발 개수
+def setting(data):
+    return data[1]
 
-for i in range(n):
-    a = int(input())
-    count[a] += 1
-    if max_value < count[a]:
-        max_value = count[a]
-        result = a # 가장 많이 가지고 있는 신발 번호 기록
-
+result = sorted(array, key=setting)
 print(result)
