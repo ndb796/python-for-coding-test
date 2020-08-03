@@ -13,6 +13,6 @@ queue.append(1)
 queue.append(4)
 queue.popleft()
 
-print(queue) # 최하단 원소부터 출력
-queue.reverse() # 최상단 원소부터 출력하기 위해 역순으로 바꾸기
-print(queue) # 최상단 원소부터 출력
+print(queue) # 먼저 들어온 순서대로 출력
+queue.reverse() # 다음 출력을 위해 역순으로 바꾸기
+print(queue) # 나중에 들어온 원소부터 출력

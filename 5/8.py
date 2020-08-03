@@ -1,4 +1,4 @@
-# DFS 메서드 정의
+# DFS 함수 정의
 def dfs(graph, v, visited):
     # 현재 노드를 방문 처리
     visited[v] = True
@@ -8,7 +8,7 @@ def dfs(graph, v, visited):
         if not visited[i]:
             dfs(graph, i, visited)
 
-# 각 노드가 연결된 정보를 리스트 자료형으로 표현 (2차원 리스트)
+# 각 노드가 연결된 정보를 리스트 자료형으로 표현(2차원 리스트)
 graph = [
   [],
   [2, 3, 8],
@@ -21,7 +21,7 @@ graph = [
   [1, 7]
 ]
 
-# 각 노드가 방문된 정보를 리스트 자료형으로 표현 (1차원 리스트)
+# 각 노드가 방문된 정보를 리스트 자료형으로 표현(1차원 리스트)
 visited = [False] * 9
 
 # 정의된 DFS 함수 호출
