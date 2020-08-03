@@ -13,7 +13,7 @@ distance = [INF] * (n + 1)
 # 모든 간선 정보를 입력받기
 for _ in range(m):
     x, y, z = map(int, input().split())
-    # a번 노드에서 b번 노드로 가는 비용이 z라는 의미
+    # x번 노드에서 y번 노드로 가는 비용이 z라는 의미
     graph[x].append((y, z))
 
 def dijkstra(start):
