@@ -10,8 +10,16 @@
     * 이 경우, 원하신다면 [정오표](/notice.md)에 독자님의 이름(혹은 아이디)을 함께 기재해드립니다.
 * 이 책을 이용해 강의를 진행하시는 교수/선생님/강사/동아리장 님들을 위해 강의용 PPT를 제공합니다. (준비중)
 * 전체 동영상 강의는 2020년 8 ~ 9월에 걸친 유튜브 라이브 강의를 진행하고 편집 후에 업로드 될 예정입니다.
+* 책 구매 링크: [한빛미디어](http://hanbit.co.kr/store/books/look.php?p_code=B8945183661) / [YES24](http://www.yes24.com/Product/Goods/91433923) / [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791162243077) / [알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=K342631735)
 
 <hr>
+
+### 도와주신 분들
+
+* 베타 리뷰어 님들: 김민철, 안수빈, 정한길, 황성호 외 10분
+* [백준 온라인 저지(BOJ)](https://www.acmicpc.net/)의 일부 문제를 사용할 수 있도록 허락해주고, 개인적으로 많은 도움을 주신 최백준 님
+* 2019, 2020 K사 문제를 책에 수록할 수 있도록 허락해주신 (주)그렙 [프로그래머스](https://programmers.co.kr/)
+    * PPL: [프로그래머스 알고리즘 문제 풀이 강의](https://programmers.co.kr/learn/courses/10336)
 
 ### 시작하며
 
