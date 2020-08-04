@@ -5,7 +5,7 @@ using namespace std;
 // 노드의 개수(V)와 간선(Union 연산)의 개수(E)
 // 노드의 개수는 최대 100,000개라고 가정
 int v, e;
-int parent[100001]; // 부모 테이블 초기화하기
+int parent[100001]; // 부모 테이블 초기화
 // 모든 간선을 담을 리스트와, 최종 비용을 담을 변수
 vector<pair<int, pair<int, int> > > edges;
 int result = 0;
