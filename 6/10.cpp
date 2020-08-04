@@ -20,7 +20,7 @@ int main(void) {
         v.push_back(x);
     }
 
-    // 기본 정렬 라이브러리를 이용하여 정렬 수행
+    // 기본 정렬 라이브러리를 이용하여 내림차순 정렬 수행
     sort(v.begin(), v.end(), compare);
 
     for(int i = 0; i < n; i++) {
