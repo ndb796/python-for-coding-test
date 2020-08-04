@@ -5,7 +5,7 @@ using namespace std;
 // 노드의 개수(V)와 간선(Union 연산)의 개수(E)
 // 노드의 개수는 최대 100,000개라고 가정
 int v, e;
-int parent[100001]; // 부모 테이블 초기화하기
+int parent[100001]; // 부모 테이블 초기화
 
 // 특정 원소가 속한 집합을 찾기
 int findParent(int x) {
