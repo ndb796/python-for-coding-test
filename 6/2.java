@@ -6,7 +6,7 @@ public class Main {
 
         int[] arr = {3, 5};
 
-        // 스와프
+        // 스와프(Swap)
         int temp = arr[0];
         arr[0] = arr[1];
         arr[1] = temp;
