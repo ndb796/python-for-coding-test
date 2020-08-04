@@ -38,7 +38,7 @@ int main(void) {
     }
 
     // 배열 A의 모든 원소의 합을 출력
-    int result = 0;
+    long long result = 0;
     for (int i = 0; i < n; i++) {
         result += a[i];
     }
