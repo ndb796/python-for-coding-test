@@ -20,7 +20,7 @@ vector<int> arr;
 int main(void) {
     // n(원소의 개수)와 target(찾고자 하는 값)을 입력받기 
     cin >> n >> target;
-    // 전체 원소 입력 받기 
+    // 전체 원소 입력받기 
     for (int i = 0; i < n; i++) {
         int x;
         cin >> x;
