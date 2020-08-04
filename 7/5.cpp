@@ -30,6 +30,10 @@ int main(void) {
         cin >> x;
         arr.push_back(x);
     }
+    
+    // 이진 탐색을 수행하기 위해 사전에 정렬 수행
+    sort(arr.begin(), arr.end());
+    
     cin >> m;
     for (int i = 0; i < m; i++) {
         int target;
