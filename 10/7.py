@@ -21,7 +21,7 @@ parent = [0] * (n + 1) # 부모 테이블 초기화
 for i in range(0, n + 1):
     parent[i] = i
 
-# 각 연산을 하나씩 확인한다.
+# 각 연산을 하나씩 확인
 for i in range(m):
     oper, a, b = map(int, input().split())
     # 합치합(Union) 연산인 경우
