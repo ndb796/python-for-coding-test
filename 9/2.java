@@ -28,7 +28,6 @@ class Node implements Comparable<Node> {
     }
 }
 
-
 public class Main {
 
     public static final int INF = (int) 1e9; // 무한을 의미하는 값으로 10억을 설정
