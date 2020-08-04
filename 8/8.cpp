@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// 앞서 계산된 결과를 저장하기 위한 DP 테이블 초기화
 int n, m;
 vector<int> arr;
 
