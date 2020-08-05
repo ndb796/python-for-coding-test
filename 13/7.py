@@ -18,7 +18,7 @@ def process(x, y, index):
     # (x, y)의 위치와 연결된 나라(연합) 정보를 담는 리스트
     united = []
     united.append((x, y))
-    # 너비 우선 탐색 (BFS)을 위한 큐 자료구조 정의
+    # 너비 우선 탐색 (BFS)을 위한 큐 라이브러리 사용
     q = deque()
     q.append((x, y))
     union[x][y] = index # 현재 연합의 번호 할당
