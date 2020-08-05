@@ -42,7 +42,6 @@ def process(x, y, index):
     # 연합 국가끼리 인구를 분배
     for i, j in united:
         graph[i][j] = summary // count
-    return count
 
 total_count = 0
 
