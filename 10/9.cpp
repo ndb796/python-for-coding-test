@@ -32,7 +32,6 @@ void topologySort() {
         // 큐에서 원소 꺼내기
         int now = q.front();
         q.pop();
-        result.push_back(now);
         // 해당 원소와 연결된 노드들의 진입차수에서 1 빼기
         for (int i = 0; i < graph[now].size(); i++) {
             result[graph[now][i]] = max(result[graph[now][i]], result[now] + times[graph[now][i]]);
