@@ -164,7 +164,7 @@
 * [문자열 뒤집기](https://www.acmicpc.net/problem/1439) (핵심 유형): [Python 3.7 코드](/11/3.py)
 * 만들 수 없는 금액 (K 대회 기출): [Python 3.7 코드](/11/4.py)
 * 볼링공 고르기 (S 기관 입학 테스트): [Python 3.7 코드](/11/5.py)
-* [무지의 먹방 라이브](https://www.acmicpc.net/problem/2437) (카카오): [Python 3.7 코드](/11/6.py)
+* [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891) (카카오): [Python 3.7 코드](/11/6.py)
 
 #### 12장 구현
 
