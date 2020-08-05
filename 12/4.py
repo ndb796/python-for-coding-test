@@ -32,14 +32,14 @@ def solution(key, lock):
         key = rotate_a_matrix_by_90_degree(key) # 열쇠 회전
         for x in range(n * 2):
             for y in range(n * 2):
-                # 자물쇠에 열쇠를 끼워 넣습니다.
+                # 자물쇠에 열쇠를 끼워 넣기
                 for i in range(m):
                     for j in range(m):
                         new_lock[x + i][y + j] += key[i][j]
                 # 새로운 자물쇠에 열쇠가 정확히 들어 맞는지 검사
                 if check(new_lock) == True:
                     return True
-                # 자물쇠에서 열쇠를 다시 빼냅니다.
+                # 자물쇠에서 열쇠를 다시 빼기
                 for i in range(m):
                     for j in range(m):
                         new_lock[x + i][y + j] -= key[i][j]
