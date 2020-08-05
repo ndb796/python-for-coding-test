@@ -89,14 +89,14 @@ int solution(vector<vector<int> > board) {
             Node pos = nextPos[i];
             for (int j = 0; j < visited.size(); j++) {
                 if (pos.pos1X == visited[j].pos1X && pos.pos1Y == visited[j].pos1Y && pos.pos2X == visited[j].pos2X && pos.pos2Y == visited[j].pos2Y) {
-					check = false;
-					break;
-				}
+                    check = false;
+                    break;
+                }
             }
             if (check) {
-		        q.push({pos, cost + 1});
-		        visited.push_back(pos);
-			}
+                q.push({pos, cost + 1});
+                visited.push_back(pos);
+            }
         }
     }
     return 0;
