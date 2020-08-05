@@ -35,7 +35,7 @@ void topologySort() {
         result.push_back(now);
         // 해당 원소와 연결된 노드들의 진입차수에서 1 빼기
         for (int i = 0; i < graph[now].size(); i++) {
-        	  result[graph[now][i]] = max(result[graph[now][i]], result[now] + times[graph[now][i]]);
+            result[graph[now][i]] = max(result[graph[now][i]], result[now] + times[graph[now][i]]);
             indegree[graph[now][i]] -= 1;
             // 새롭게 진입차수가 0이 되는 노드를 큐에 삽입
             if (indegree[graph[now][i]] == 0) {
