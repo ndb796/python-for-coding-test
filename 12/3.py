@@ -10,7 +10,7 @@ def solution(s):
             # 이전 상태와 동일하다면 압축 횟수(count) 증가
             if prev == s[j:j + step]:
                 count += 1
-            # 다른 문자열이 나왔다면 (더 이상 압축하지 못하는 경우라면)
+            # 다른 문자열이 나왔다면(더 이상 압축하지 못하는 경우라면)
             else:
                 compressed += str(count) + prev if count >= 2 else prev
                 prev = s[j:j + step] # 다시 상태 초기화
