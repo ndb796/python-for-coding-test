@@ -31,7 +31,7 @@ def simulate():
     direction = 0 # 처음에는 동쪽을 보고 있음
     time = 0 # 시작한 뒤에 지난 '초' 시간
     index = 0 # 다음에 회전할 정보
-    q = [(x, y)] # 뱀이 차지하고 있는 위치 정보 (꼬리가 앞쪽)
+    q = [(x, y)] # 뱀이 차지하고 있는 위치 정보(꼬리가 앞쪽)
 
     while True:
         nx = x + dx[direction]
