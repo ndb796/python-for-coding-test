@@ -18,7 +18,6 @@ int main(void) {
             }
         }
         // 다이나믹 프로그래밍을 위한 2차원 DP 테이블 초기화
-        int index = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 dp[i][j] = arr[i][j];
