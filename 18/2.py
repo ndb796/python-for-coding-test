@@ -14,11 +14,11 @@ def union_parent(parent, a, b):
     else:
         parent[a] = b
 
-# 탑승구의 개수 입력 받기
+# 탑승구의 개수 입력받기
 g = int(input())
-# 비행기의 개수 입력 받기
+# 비행기의 개수 입력받기
 p = int(input())
-parent = [0] * (g + 1) # 부모 테이블 초기화하기
+parent = [0] * (g + 1) # 부모 테이블 초기화
 
 # 부모 테이블상에서, 부모를 자기 자신으로 초기화
 for i in range(1, g + 1):
