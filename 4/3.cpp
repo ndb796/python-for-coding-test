@@ -12,7 +12,7 @@ int main(void) {
     // 현재 나이트의 위치 입력받기
     cin >> inputData;
     int row = inputData[1] - '0';
-    int column = inputData[0] - 'a';
+    int column = inputData[0] - 'a' + 1;
 
     // 8가지 방향에 대하여 각 위치로 이동이 가능한지 확인
     int result = 0;
