@@ -5,7 +5,7 @@ using namespace std;
 int n; // 전체 상담 개수
 vector<int> t; // 각 상담을 완료하는데 걸리는 기간
 vector<int> p; // 각 상담을 완료했을 때 받을 수 있는 금액
-int dp[15]; // 다이나믹 프로그래밍을 위한 1차원 DP 테이블 초기화
+int dp[16]; // 다이나믹 프로그래밍을 위한 1차원 DP 테이블 초기화
 int maxValue;
 
 int main(void) {

@@ -168,14 +168,14 @@
 
 #### 12장 구현
 
-* [럭키 스트레이트](https://www.acmicpc.net/problem/18406) (핵심 유형): [Python 3.7 코드](/12/1.py)
-* 문자열 재정렬 (Facebook 인터뷰 기출): [Python 3.7 코드](/12/2.py)
-* [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) (카카오): [Python 3.7 코드](/12/3.py)
-* [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) (카카오): [Python 3.7 코드](/12/4.py)
-* [뱀](https://www.acmicpc.net/problem/3190) (삼성): [Python 3.7 코드](/12/5.py)
-* [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오): [Python 3.7 코드](/12/6.py)
-* [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성): [Python 3.7 코드](/12/7.py)
-* [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오): [Python 3.7 코드](/12/8.py)
+* [럭키 스트레이트](https://www.acmicpc.net/problem/18406) (핵심 유형): ([Python 3.7 코드](/12/1.py) / [C++ 코드](/12/1.cpp) / [Java 코드](/12/1.java))
+* 문자열 재정렬 (Facebook 인터뷰 기출): ([Python 3.7 코드](/12/2.py) / [C++ 코드](/12/2.cpp) / [Java 코드](/12/2.java))
+* [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) (카카오): ([Python 3.7 코드](/12/3.py) / [C++ 코드](/12/3.cpp) / [Java 코드](/12/3.java))
+* [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) (카카오): ([Python 3.7 코드](/12/4.py) / [C++ 코드](/12/4.cpp) / [Java 코드](/12/4.java))
+* [뱀](https://www.acmicpc.net/problem/3190) (삼성): ([Python 3.7 코드](/12/5.py) / [C++ 코드](/12/5.cpp) / [Java 코드](/12/5.java))
+* [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오): ([Python 3.7 코드](/12/6.py) / [C++ 코드](/12/6.cpp) / [Java 코드](/12/6.java))
+* [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성): ([Python 3.7 코드](/12/7.py) / [C++ 코드](/12/7.cpp) / [Java 코드](/12/7.java))
+* [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오): ([Python 3.7 코드](/12/8.py) / [C++ 코드](/12/8.cpp) / [Java 코드](/12/8.java))
 
 #### 13장 DFS/BFS
 
@@ -190,10 +190,10 @@
 
 #### 14장 정렬
 
-* [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형): [Python 3.7 코드](/14/1.py)
-* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가): [Python 3.7 코드](/14/2.py)
-* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오): [Python 3.7 코드](/14/3.py)
-* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형): [Python 3.7 코드](/14/4.py)
+* [국영수](https://www.acmicpc.net/problem/10825) (핵심 유형): ([Python 3.7 코드](/14/1.py) / [C++ 코드](/14/1.cpp) / [Java 코드](/14/1.java))
+* [안테나](https://www.acmicpc.net/problem/18310) (국내 S 교육 기관 선발 평가): ([Python 3.7 코드](/14/2.py) / [C++ 코드](/14/2.cpp) / [Java 코드](/14/2.java))
+* [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오): ([Python 3.7 코드](/14/3.py) / [C++ 코드](/14/3.cpp) / [Java 코드](/14/3.java))
+* [카드 정렬하기](https://www.acmicpc.net/problem/1715) (핵심 유형): ([Python 3.7 코드](/14/4.py) / [C++ 코드](/14/4.cpp) / [Java 코드](/14/4.java))
 
 #### 15장 이진 탐색
 
@@ -204,12 +204,12 @@
 
 #### 16장 다이나믹 프로그래밍
 
-* 금광 (Flipkart 인터뷰 기출): [Python 3.7 코드](/16/1.py)
-* [정수 삼각형](https://www.acmicpc.net/problem/1932) (IOI): [Python 3.7 코드](/16/2.py)
-* [퇴사](https://www.acmicpc.net/problem/14501) (삼성): [Python 3.7 코드](/16/3.py)
-* [병사 배치하기](https://www.acmicpc.net/problem/18353) (핵심 유형): [Python 3.7 코드](/16/4.py)
-* 못생긴 수 (Google 인터뷰 기출): [Python 3.7 코드](/16/5.py)
-* 편집 거리 (Goldman Sachs 인터뷰 기출): [Python 3.7 코드](/16/6.py)
+* 금광 (Flipkart 인터뷰 기출): ([Python 3.7 코드](/16/1.py) / [C++ 코드](/16/1.cpp) / [Java 코드](/16/1.java))
+* [정수 삼각형](https://www.acmicpc.net/problem/1932) (IOI): ([Python 3.7 코드](/16/2.py) / [C++ 코드](/16/2.cpp) / [Java 코드](/16/2.java))
+* [퇴사](https://www.acmicpc.net/problem/14501) (삼성): ([Python 3.7 코드](/16/3.py) / [C++ 코드](/16/3.cpp) / [Java 코드](/16/3.java))
+* [병사 배치하기](https://www.acmicpc.net/problem/18353) (핵심 유형): ([Python 3.7 코드](/16/4.py) / [C++ 코드](/16/4.cpp) / [Java 코드](/16/4.java))
+* 못생긴 수 (Google 인터뷰 기출): ([Python 3.7 코드](/16/5.py) / [C++ 코드](/16/5.cpp) / [Java 코드](/16/5.java))
+* 편집 거리 (Goldman Sachs 인터뷰 기출): ([Python 3.7 코드](/16/6.py) / [C++ 코드](/16/6.cpp) / [Java 코드](/16/6.java))
 
 #### 17장 최단 경로
 
