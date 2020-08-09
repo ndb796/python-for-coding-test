@@ -66,7 +66,7 @@ for tc in range(int(input())):
                 if indegree[i] == 0:
                     q.append(i)
 
-    # 사이클이 발생하는 경우 (일관성이 없는 경우)
+    # 사이클이 발생하는 경우(일관성이 없는 경우)
     if cycle:
         print("IMPOSSIBLE")
     # 위상 정렬 결과가 여러 개인 경우
