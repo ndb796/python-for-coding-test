@@ -14,9 +14,9 @@ def union_parent(parent, a, b):
     else:
         parent[a] = b
  
-# 노드의 개수 입력 받기
+# 노드의 개수 입력받기
 n = int(input())
-parent = [0] * (n + 1) # 부모 테이블 초기화하기
+parent = [0] * (n + 1) # 부모 테이블 초기화
 
 # 모든 간선을 담을 리스트와, 최종 비용을 담을 변수
 edges = []
@@ -30,7 +30,7 @@ x = []
 y = []
 z = []
 
-# 모든 노드에 대한 좌표 값 입력 받기
+# 모든 노드에 대한 좌표 값 입력받기
 for i in range(1, n + 1):
     data = list(map(int, input().split()))
     x.append((data[0], i))
