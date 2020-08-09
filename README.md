@@ -212,7 +212,7 @@
 
 #### 17장 최단 경로
 
-* [플로이드](https://www.acmicpc.net/problem/11404) (핵심 유형): ([Python 3.7 코드](/17/1.py) / [C++ 코드](/17/2.cpp))
+* [플로이드](https://www.acmicpc.net/problem/11404) (핵심 유형): ([Python 3.7 코드](/17/1.py) / [C++ 코드](/17/1.cpp))
 * 정확한 순위 (K 대회 기출): ([Python 3.7 코드](/17/2.py) / [C++ 코드](/17/2.cpp))
 * 화성 탐사 (ICPC): ([Python 3.7 코드](/17/3.py) / [C++ 코드](/17/3.cpp))
 * 숨바꼭질 (USACO): ([Python 3.7 코드](/17/4.py) / [C++ 코드](/17/4.cpp))
