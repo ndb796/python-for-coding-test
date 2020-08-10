@@ -75,7 +75,6 @@ public class Main {
             int a = sc.nextInt();
             int b = sc.nextInt();
             int cost = sc.nextInt();
-            // 비용순으로 정렬하기 위해서 튜플의 첫 번째 원소를 비용으로 설정
             edges.add(new Edge(cost, a, b));
         }
 
