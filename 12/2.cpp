@@ -31,6 +31,5 @@ int main(void) {
 
     // 숫자가 하나라도 존재하는 경우 가장 뒤에 출력
     if (value != 0) cout << value;
-
     cout << '\n';
 }
