@@ -59,12 +59,12 @@ for tc in range(int(input())):
         now = q.popleft()
         result.append(now)
         # 해당 원소와 연결된 노드들의 진입차수에서 1 빼기
-        for i in range(1, n + 1):
-            if graph[now][i]:
-                indegree[i] -= 1
+        for j in range(1, n + 1):
+            if graph[now][j]:
+                indegree[j] -= 1
                 # 새롭게 진입차수가 0이 되는 노드를 큐에 삽입
-                if indegree[i] == 0:
-                    q.append(i)
+                if indegree[j] == 0:
+                    q.append(j)
 
     # 사이클이 발생하는 경우(일관성이 없는 경우)
     if cycle:
