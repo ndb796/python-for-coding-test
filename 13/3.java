@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Virus  implements Comparable<Virus> {
+class Virus implements Comparable<Virus> {
 
     private int index;
     private int second;
