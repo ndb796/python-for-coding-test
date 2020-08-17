@@ -4,9 +4,9 @@ class Combination {
     private int n;
     private int r;
     private int[] now; // 현재 조합
-    private ArrayList<ArrayList<Node>> result; // 모든 조합
+    private ArrayList<ArrayList<Position>> result; // 모든 조합
 
-    public ArrayList<ArrayList<Node>> getResult() {
+    public ArrayList<ArrayList<Position>> getResult() {
         return result;
     }
 
@@ -14,12 +14,12 @@ class Combination {
         this.n = n;
         this.r = r;
         this.now = new int[r];
-        this.result = new ArrayList<ArrayList<Node>>();
+        this.result = new ArrayList<ArrayList<Position>>();
     }
 
-    public void combination(ArrayList<Node> arr, int depth, int index, int target) {
+    public void combination(ArrayList<Position> arr, int depth, int index, int target) {
         if (depth == r) {
-            ArrayList<Node> temp = new ArrayList<>();
+            ArrayList<Position> temp = new ArrayList<>();
             for (int i = 0; i < now.length; i++) {
                 temp.add(arr.get(now[i]));
             }
@@ -33,11 +33,11 @@ class Combination {
     }
 }
 
-class Node {
+class Position {
     private int x;
     private int y;
 
-    public Node(int x, int y) {
+    public Position(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -55,10 +55,10 @@ public class Main {
 
     public static int n, m;
     public static int[][] arr = new int[50][50];
-    public static ArrayList<Node> chicken = new ArrayList<>();
-    public static ArrayList<Node> house = new ArrayList<>();
+    public static ArrayList<Position> chicken = new ArrayList<>();
+    public static ArrayList<Position> house = new ArrayList<>();
 
-    public static int getSum(ArrayList<Node> candidates) {
+    public static int getSum(ArrayList<Position> candidates) {
         int result = 0;
           // 모든 집에 대하여
           for (int i = 0; i < house.size(); i++) {
@@ -87,15 +87,15 @@ public class Main {
         for (int r = 0; r < n; r++) {
             for (int c = 0; c < n; c++) {
                 arr[r][c] = sc.nextInt();
-                if (arr[r][c] == 1) house.add(new Node(r, c)); // 일반 집
-                else if (arr[r][c] == 2) chicken.add(new Node(r, c)); // 치킨집
+                if (arr[r][c] == 1) house.add(new Position(r, c)); // 일반 집
+                else if (arr[r][c] == 2) chicken.add(new Position(r, c)); // 치킨집
             }
         }
 
         // 모든 치킨 집 중에서 m개의 치킨 집을 뽑는 조합 계산
         Combination comb = new Combination(chicken.size(), m);
         comb.combination(chicken, 0, 0, 0);
-        ArrayList<ArrayList<Node>> chickenList = comb.getResult();
+        ArrayList<ArrayList<Position>> chickenList = comb.getResult();
 
         // 치킨 거리의 합의 최소를 찾아 출력
         int result = (int) 1e9;
