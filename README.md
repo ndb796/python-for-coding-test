@@ -172,8 +172,8 @@
 * [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) (카카오): ([Python 3.7 코드](/12/4.py) / [C++ 코드](/12/4.cpp) / [Java 코드](/12/4.java))
 * [뱀](https://www.acmicpc.net/problem/3190) (삼성): ([Python 3.7 코드](/12/5.py) / [C++ 코드](/12/5.cpp) / [Java 코드](/12/5.java))
 * [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오): ([Python 3.7 코드](/12/6.py) / [C++ 코드](/12/6.cpp))
-* [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성): ([Python 3.7 코드](/12/7.py) / [C++ 코드](/12/7.cpp))
-* [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오): ([Python 3.7 코드](/12/8.py) / [C++ 코드](/12/8.cpp))
+* [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성): ([Python 3.7 코드](/12/7.py) / [C++ 코드](/12/7.cpp) / [Java 코드](/12/7.java))
+* [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오): ([Python 3.7 코드](/12/8.py) / [C++ 코드](/12/8.cpp) / [Java 코드](/12/8.java))
 
 #### 13장 DFS/BFS
 
@@ -182,8 +182,8 @@
 * [경쟁적 전염](https://www.acmicpc.net/problem/18405) (핵심 유형): ([Python 3.7 코드](/13/3.py) / [C++ 코드](/13/3.cpp) / [Java 코드](/13/3.java))
 * [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) (카카오): ([Python 3.7 코드](/13/4.py) / [C++ 코드](/13/4.cpp))
 * [연산자 끼워 넣기](https://www.acmicpc.net/problem/14888) (삼성): ([Python 3.7 코드](/13/5.py) / [C++ 코드](/13/5.cpp) / [Java 코드](/13/5.java))
-* [감시 피하기](https://www.acmicpc.net/problem/18428) (핵심 유형): ([Python 3.7 코드](/13/6.py) / [C++ 코드](/13/6.cpp))
-* [인구 이동](https://www.acmicpc.net/problem/16234) (삼성): ([Python 3.7 코드](/13/7.py) / [C++ 코드](/13/7.cpp))
+* [감시 피하기](https://www.acmicpc.net/problem/18428) (핵심 유형): ([Python 3.7 코드](/13/6.py) / [C++ 코드](/13/6.cpp) / [Java 코드](/13/6.java))
+* [인구 이동](https://www.acmicpc.net/problem/16234) (삼성): ([Python 3.7 코드](/13/7.py) / [C++ 코드](/13/7.cpp) / [Java 코드](/13/7.java))
 * [블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063) (카카오): ([Python 3.7 코드](/13/8.py) / [C++ 코드](/13/8.cpp))
 
 #### 14장 정렬
