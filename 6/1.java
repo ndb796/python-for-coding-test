@@ -14,7 +14,7 @@ public class Main {
                     min_index = j;
                 }
             }
-            // 스와프(
+            // 스와프
             int temp = arr[i];
             arr[i] = arr[min_index];
             arr[min_index] = temp;
