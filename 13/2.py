@@ -1,3 +1,5 @@
+# BOJ에서는 [언어]를 PyPy3로 설정하여 제출해주세요.
+
 n, m = map(int, input().split())
 data = [] # 초기 맵 리스트
 temp = [[0] * m for _ in range(n)] # 벽을 설치한 뒤의 맵 리스트
