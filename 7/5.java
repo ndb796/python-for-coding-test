@@ -31,7 +31,7 @@ public class Main {
 
         // M(손님이 확인 요청한 부품 개수)
         int m = sc.nextInt();
-        int[] targets = new int[n];
+        int[] targets = new int[m];
         for (int i = 0; i < m; i++) {
             targets[i] = sc.nextInt();
         }
