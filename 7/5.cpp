@@ -3,7 +3,7 @@
 using namespace std;
 
 // 이진 탐색 소스코드 구현(반복문)
-int binarySearch(vector<int> arr, int target, int start, int end) {
+int binarySearch(vector<int>& arr, int target, int start, int end) {
     while (start <= end) {
         int mid = (start + end) / 2;
         // 찾은 경우 중간점 인덱스 반환
