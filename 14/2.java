@@ -11,9 +11,9 @@ public class Main {
             arrayList.add(sc.nextInt());
         }
 
-        Collections.sort(students);
+        Collections.sort(arrayList);
 
         // 중간값(median)을 출력
-        System.out.println(v[(n - 1) / 2]);
+        System.out.println(arrayList.get((n - 1) / 2));
     }
 }
