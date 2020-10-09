@@ -13,6 +13,7 @@ result = 0
 
 while(start <= end):
     mid = (start + end) // 2 # mid는 가장 인접한 두 공유기 사이의 거리(Gap)을 의미
+    # 첫째 집에는 무조건 공유기를 설치한다고 가정
     value = array[0]
     count = 1
     # 현재의 mid 값을 이용해 공유기를 설치하기
