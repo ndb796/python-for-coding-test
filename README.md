@@ -173,7 +173,7 @@
 * [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) (카카오): ([Python 3.7 코드](/12/3.py) / [C++ 코드](/12/3.cpp) / [Java 코드](/12/3.java))
 * [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) (카카오): ([Python 3.7 코드](/12/4.py) / [C++ 코드](/12/4.cpp) / [Java 코드](/12/4.java))
 * [뱀](https://www.acmicpc.net/problem/3190) (삼성): ([Python 3.7 코드](/12/5.py) / [C++ 코드](/12/5.cpp) / [Java 코드](/12/5.java))
-* [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오): ([Python 3.7 코드](/12/6.py) / [C++ 코드](/12/6.cpp))
+* [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오): ([Python 3.7 코드](/12/6.py) / [C++ 코드](/12/6.cpp) / [Java 코드](/12/6.java))
 * [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성): ([Python 3.7 코드](/12/7.py) / [C++ 코드](/12/7.cpp) / [Java 코드](/12/7.java))
 * [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오): ([Python 3.7 코드](/12/8.py) / [C++ 코드](/12/8.cpp) / [Java 코드](/12/8.java))
 
