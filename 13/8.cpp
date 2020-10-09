@@ -42,7 +42,7 @@ vector<Node> getNextPos(Node pos, vector<vector<int> > board) {
             }
         }
     }
-    // 현재 로봇이 가로로 놓여 있는 경우
+    // 현재 로봇이 세로로 놓여 있는 경우
     int ver[] = {-1, 1};
     if (pos.pos1Y == pos.pos2Y) {
         for (int i = 0; i < 2; i++) { // 왼쪽으로 회전하거나, 오른쪽으로 회전
