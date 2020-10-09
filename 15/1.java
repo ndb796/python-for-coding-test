@@ -22,7 +22,7 @@ public class Main {
 
     // 값이 [left_value, right_value]인 데이터의 개수를 반환하는 함수
     public static int countByRange(int[] arr, int leftValue, int rightValue) {
-        // 유의: lowerBound와 upperBound는 배열의 길이를 end 변수의 값으로 설정
+        // 유의: lowerBound와 upperBound는 end 변수의 값을 배열의 길이로 설정
         int rightIndex = upperBound(arr, rightValue, 0, arr.length);
         int leftIndex = lowerBound(arr, leftValue, 0, arr.length);
         return rightIndex - leftIndex;
