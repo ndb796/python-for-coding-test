@@ -31,9 +31,9 @@ class Solution {
     }
 
     // 모든 단어들을 길이마다 나누어서 저장하기 위한 리스트
-    ArrayList<ArrayList<String>> arr = new ArrayList<ArrayList<String>>();
+    public ArrayList<ArrayList<String>> arr = new ArrayList<ArrayList<String>>();
     // 모든 단어들을 길이마다 나누어서 뒤집어 저장하기 위한 리스트
-    ArrayList<ArrayList<String>> reversedArr = new ArrayList<ArrayList<String>>();
+    public ArrayList<ArrayList<String>> reversedArr = new ArrayList<ArrayList<String>>();
 
     public int[] solution(String[] words, String[] queries) {
         ArrayList<Integer> ans = new ArrayList<Integer>();
