@@ -25,6 +25,7 @@ int main() {
     while (start <= end) {
         // mid는 가장 인접한 두 공유기 사이의 거리(Gap)을 의미
         int mid = (start + end) / 2;
+        // 첫째 집에는 무조건 공유기를 설치한다고 가정
         int value = arr[0];
         int cnt = 1;
         // 현재의 mid 값을 이용해 공유기를 설치하기
