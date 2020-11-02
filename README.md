@@ -318,3 +318,14 @@
    * 회원 정보 처리 실습
 
 #### 부록 D 알고리즘 유형별 문제 풀이
+
+### 추가 자료
+
+* 책에서는 자세히 다루지 않지만 독자의 요청으로 추가적으로 제공합니다.
+
+1. 트리(Tree)
+2. 우선순위 큐(Priority Queue)
+    * [우선순위 큐 라이브러리를 활용한 힙 정렬](https://www.acmicpc.net/problem/2751): ([Python 3.7 코드](/21/1.py) / [C++ 코드](/21/1.cpp))
+3. 인덱스 트리(Indexed Tree)
+4. 벨만-포드(Bellman-Ford) 최단 경로 알고리즘
+5. 최소 공통 조상(Lowest Common Ancestor, LCA)
