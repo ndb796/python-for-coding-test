@@ -46,7 +46,7 @@ int main(void) {
     // 최단 거리 테이블을 모두 무한으로 초기화
     fill_n(d, 501, INF);
     
-    // 다익스트라 알고리즘을 수행
+    // 벨만 포드 알고리즘을 수행
     bool negative_cycle = bf(1); // 1번 노드가 시작 노드
 
     if (negative_cycle) {
