@@ -330,7 +330,7 @@
 * 바이너리 인덱스 트리(Binary Indexed Tree, BIT, Fenwick Tree)
   * [구간 합 구하기(]https://www.acmicpc.net/problem/2042): ([Python 3.7 코드](/21/3.py) / [C++ 코드](/21/3.cpp))
 * 벨만-포드(Bellman-Ford) 최단 경로 알고리즘
-  * [음수 간선이 포함된 그래프에서의 최단 경로 찾기]https://www.acmicpc.net/problem/11657): ([Python 3.7 코드](/21/4.py) / [C++ 코드](/21/4.cpp))
+  * [음수 간선이 포함된 그래프에서의 최단 경로 찾기](https://www.acmicpc.net/problem/11657): ([Python 3.7 코드](/21/4.py) / [C++ 코드](/21/4.cpp))
 * 최소 공통 조상(Lowest Common Ancestor, LCA)
   * [LCA 기본](https://www.acmicpc.net/problem/11437): ([Python 3.7 코드](/21/5.py) / [C++ 코드](/21/5.cpp))
   * [LCA 심화](https://www.acmicpc.net/problem/11438): ([Python 3.7 코드](/21/6.py) / [C++ 코드](/21/6.cpp))
