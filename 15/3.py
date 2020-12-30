@@ -7,7 +7,7 @@ for _ in range(n):
      array.append(int(input()))
 array.sort() # 이진 탐색 수행을 위해 정렬 수행
 
-start = array[1] - array[0] # 집의 좌표 중에 가장 작은 값
+start = 1 # 집의 좌표 중에 가장 작은 값
 end = array[-1] - array[0] # 집의 좌표 중에 가장 큰 값
 result = 0
 
