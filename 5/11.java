@@ -2,20 +2,20 @@ import java.util.*;
 
 class Node {
 
-    private int index;
-    private int distance;
+    private int x;
+    private int y;
 
-    public Node(int index, int distance) {
-        this.index = index;
-        this.distance = distance;
+    public Node(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 
-    public int getIndex() {
-        return this.index;
+    public int getX() {
+        return this.x;
     }
     
-    public int getDistance() {
-        return this.distance;
+    public int getY() {
+        return this.y;
     }
 }
 
@@ -35,8 +35,8 @@ public class Main {
         // 큐가 빌 때까지 반복하기 
         while(!q.isEmpty()) {
             Node node = q.poll();
-            x = node.getIndex();
-            y = node.getDistance();
+            x = node.getX();
+            y = node.getY();
             // 현재 위치에서 4가지 방향으로의 위치 확인
             for (int i = 0; i < 4; i++) {
                 int nx = x + dx[i];
