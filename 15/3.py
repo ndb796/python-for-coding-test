@@ -7,8 +7,8 @@ for _ in range(n):
      array.append(int(input()))
 array.sort() # 이진 탐색 수행을 위해 정렬 수행
 
-start = 1 # 가능한 최소 거리 차이(min gap)
-end = array[-1] - array[0] # 가능한 최대 거리 차이(max gap)
+start = 1 # 가능한 최소 거리(min gap)
+end = array[-1] - array[0] # 가능한 최대 거리(max gap)
 result = 0
 
 while(start <= end):
