@@ -17,8 +17,8 @@ public class Main {
         // 이진 탐색을 위해 정렬 수행
         Collections.sort(arr);
 
-        int start = 1; // 가능한 최소 거리 차이(min gap)
-        int end = arr.get(n - 1) - arr.get(0); // 가능한 최대 거리 차이(max gap)
+        int start = 1; // 가능한 최소 거리(min gap)
+        int end = arr.get(n - 1) - arr.get(0); // 가능한 최대 거리(max gap)
         int result = 0;
 
         while (start <= end) {
