@@ -18,8 +18,8 @@ int main() {
     // 이진 탐색 수행을 위해 정렬 수행
     sort(arr.begin(), arr.end());
 
-    int start = 1; // 가능한 최소 거리 차이(min gap)
-    int end = arr[n - 1] - arr[0]; // 가능한 최대 거리 차이(max gap)
+    int start = 1; // 가능한 최소 거리(min gap)
+    int end = arr[n - 1] - arr[0]; // 가능한 최대 거리(max gap)
     int result = 0;
 
     while (start <= end) {
