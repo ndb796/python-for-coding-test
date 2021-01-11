@@ -17,12 +17,12 @@ public class Main {
         // 이진 탐색을 위해 정렬 수행
         Collections.sort(arr);
 
-        int start = arr.get(1) - arr.get(0); // 집의 좌표 중에 가장 작은 값
-        int end = arr.get(n - 1) - arr.get(0); // 집의 좌표 중에 가장 큰 값
+        int start = 1; // 가능한 최소 거리 차이(min gap)
+        int end = arr.get(n - 1) - arr.get(0); // 가능한 최대 거리 차이(max gap)
         int result = 0;
 
         while (start <= end) {
-            // mid는 가장 인접한 두 공유기 사이의 거리(Gap)을 의미
+            // mid는 가장 인접한 두 공유기 사이의 거리(gap)을 의미
             int mid = (start + end) / 2;
             // 첫째 집에는 무조건 공유기를 설치한다고 가정
             int value = arr.get(0);
